@@ -1,18 +1,17 @@
 {
   "settings": {
-    "name": "Site-04-28_1909",
+    "name": "My Site",
     "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
-      "titlePreset": "StartM5",
       "styling": {
-        "primaryColor": "#9fe870",
+        "primaryColor": "#2b7a69",
         "secondaryColor": "#ffd7ef",
         "successColor": "#3a341c",
         "infoColor": "#320707",
         "warningColor": "#a0e2e1",
-        "dangerColor": "#ffea64",
+        "dangerColor": "#ffffff",
         "mainFont": "Inter Tight",
         "display1Font": "Inter Tight",
         "display1Size": 5,
@@ -23,18 +22,27 @@
         "display7Font": "Inter Tight",
         "display7Size": 1.4,
         "display4Font": "Inter Tight",
-        "display4Size": 1.4,
+        "display4Size": "1.4",
         "isRoundedImages": true,
         "isRoundedButtons": true,
         "isLargeButtons": true,
         "isGhostButtonBorder": true,
-        "underlinedLinks": false,
-        "isAnimatedOnScroll": false,
+        "underlinedLinks": true,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": [
+        "#ffa25b",
+        "#2b7a69",
+        "#164fd3",
+        "#ff7d19",
+        "#385493",
+        "#086784",
+        "#fe8d01"
+      ]
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "6.0.1",
+    "versionFirst": "5.8.25",
     "siteFonts": [
       {
         "css": "'Inter Tight', sans-serif",
@@ -42,9 +50,12 @@
         "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
+    "uniqCompNum": 63,
+    "versionPublish": "6.0.1",
     "imageResize": true,
-    "favicon": false,
-    "mbrsiteDomain": "gdhzapegbr",
+    "chatbutton": {},
+    "favicon": "@PROJECT_PATH@/assets/images/chatgpt-image-apr-28-2025-08-48-51-pm.png-128x128.png",
+    "mbrsiteDomain": "ynihjai6kz",
     "usedWebp": false,
     "cssOptimize": false,
     "lazyLoad": false,
@@ -54,9 +65,9 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 3,
-    "versionPublish": "6.0.1",
-    "screenshot": "screenshot.png"
+    "pwa-switcher": false,
+    "screenshot": "screenshot.png",
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -72,7 +83,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "[JS_CODE_0]\n<spline-viewer url=\"https://prod.spline.design/0X2GVTELkIz9l0o1/scene.splinecode\"></spline-viewer>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n\n\n[JS_CODE_0]\n<spline-viewer loading-anim-type=\"none\" url=\"https://prod.spline.design/11g2lCPQqgH1vjQA/scene.splinecode\"></spline-viewer>\n\n\n</div>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -80,24 +91,11 @@
           ],
           "_name": "pro.custom-html",
           "_sourceTheme": "startm5",
-          "_anchor": "custom-html-1",
+          "_anchor": "custom-html-1q",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script type=\"module\" src=\"https://unpkg.com/@splinetool/viewer@1.9.89/build/spline-viewer.js\"></script>"
           ]
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <h1 class=\"display-1\">Custom HTML Block</h1>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#777\" width=\"200\" height=\"200\"><path d=\"M6.1 8.7L2.8 12l3.3 3.3-1.4 1.4L0 12l4.7-4.7 1.4 1.4zm13.2-1.4l-1.4 1.4 3.3 3.3-3.3 3.3 1.4 1.4L24 12l-4.7-4.7zM8.1 18.6l1.8.8 6-14-1.8-.8-6 14z\"></path></svg>\n    <p class=\"display-3\">Click to Open Code Editor</p>\n</div>",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "startm5",
-          "_anchor": "custom-html-2"
         }
       ]
     }
